@@ -1,0 +1,32 @@
+=============== Jan 2, 2022 (CST) ===============
+21:16:23.438649 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:16:23.494097 db@open opening
+21:16:23.495014 version@stat F·[] S·0B[] Sc·[]
+21:16:23.513253 db@janitor F·2 G·0
+21:16:23.513294 db@open done T·19.157708ms
+21:16:23.513798 db@close closing
+21:16:23.513890 db@close done T·90.625µs
+=============== Jan 2, 2022 (CST) ===============
+21:17:17.148627 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:17:17.148873 version@stat F·[] S·0B[] Sc·[]
+21:17:17.148894 db@open opening
+21:17:17.148950 journal@recovery F·1
+21:17:17.149240 journal@recovery recovering @1
+21:17:17.168203 memdb@flush created L0@2 N·12 S·734B "HK\xa7..\xb9n\xd5,v5":"\x89\xd1\xc6..su\x89,v2"
+21:17:17.168920 version@stat F·[1] S·734B[734B] Sc·[0.25]
+21:17:17.243676 db@janitor F·3 G·0
+21:17:17.243718 db@open done T·94.814458ms
+21:17:17.244389 db@close closing
+21:17:17.244482 db@close done T·92.667µs
+=============== Jan 2, 2022 (CST) ===============
+22:47:33.595329 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:47:33.595995 version@stat F·[1] S·734B[734B] Sc·[0.25]
+22:47:33.596021 db@open opening
+22:47:33.596099 journal@recovery F·1
+22:47:33.596727 journal@recovery recovering @3
+22:47:33.615592 memdb@flush created L0@5 N·1 S·304B "eth..\xb9n\xd5,v14":"eth..\xb9n\xd5,v14"
+22:47:33.616209 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+22:47:33.708749 db@janitor F·4 G·0
+22:47:33.708813 db@open done T·112.778917ms
+22:47:33.710399 db@close closing
+22:47:33.710589 db@close done T·188.375µs
